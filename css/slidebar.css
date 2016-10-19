@@ -1,0 +1,130 @@
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .float-menu{
+        position: fixed;
+        left:50%;
+        bottom: 50px;
+        margin-left: 605px;
+    }
+    .float-menu ul{
+        list-style: none;
+    }
+    .float-menu li{
+        width: 50px;
+        height: 50px;
+        /*border: 1px solid #666;*/
+        margin-top: 5px;
+        position: relative;
+        /*overflow:hidden;*/
+        box-shadow: 0 0 3px #bbb;
+    }
+    .float-menu li a .a-d{
+        position: absolute;
+    }
+    .float-menu li a{
+        width: 50px;
+        height: 50px;
+        position:relative ;
+        float: left;
+        overflow: hidden;
+        background: #fff;
+    }
+    .float-menu li a span{
+        width: 50px;
+        height: 41px;
+        background: #459BDC;
+        text-align: center;
+        color:white;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        padding-top: 9px;
+        float: left;
+        display:block;
+
+    }
+    .float-menu li i{
+        width: 8px;
+        height: 8px;
+        background: #ea4848;
+        position: absolute;
+        left:31px;
+        top:16px;
+        border-radius: 50%;
+    }
+    .float-box{
+        width: 0;
+        height: auto;
+        position: absolute;
+        top:0;
+        right: 55px;
+
+    }
+    .float-box dl{
+        width: 0;
+        height: 50px;
+        position: absolute;
+        top:0;
+        right:0;
+        overflow: hidden;
+        box-shadow: 0 0 3px #bbb;
+    }
+    .float-dt{
+        width: 50px;
+        height: 50px;
+        float: left;
+
+
+    }
+    .d1{
+        background:url(../images/leeter.png) no-repeat 10px 10px;
+    }
+    .d2{
+        background:url(../images/reply.png) no-repeat 10px 10px;
+    }
+    .d3{
+        background:url(../images/colle.png) no-repeat 10px 10px;
+    }
+    .d4{
+        background:url(../images/praise.png) no-repeat 10px 10px;
+    }
+    .d5{
+        background:url(../images/with.png) no-repeat 10px 10px;
+    }
+    .d6{
+        background:url(../images/sys.png) no-repeat 10px 10px;
+    }
+    .float-menu dt:nth-child(1):hover{background: #459BDC url(../images/leeter-on.png) no-repeat 10px 10px;}
+    .float-menu dt:nth-child(2):hover{background:#459BDC url(../images/reply-on.png) no-repeat 10px 10px;}
+    .float-menu dt:nth-child(3):hover{background:#459BDC url(../images/colle-on.png) no-repeat 10px 10px;}
+    .float-menu dt:nth-child(4):hover{background:#459BDC url(../images/praise-on.png) no-repeat 10px 10px;}
+    .float-menu dt:nth-child(5):hover{background:#459BDC url(../images/with-on.png) no-repeat 10px 10px;}
+    .float-menu dt:nth-child(6):hover{background:#459BDC url(../images/sys-on.png) no-repeat 10px 10px;}
+    .current{
+        background:#459BDC;
+    }
+    .current:nth-child(1){background: #459BDC url(../images/leeter-on.png) no-repeat 10px 10px;}
+    .current:nth-child(2){background:#459BDC url(../images/reply-on.png) no-repeat 10px 10px;}
+    .current:nth-child(3){background:#459BDC url(../images/colle-on.png) no-repeat 10px 10px;}
+    .current:nth-child(4){background:#459BDC url(../images/praise-on.png) no-repeat 10px 10px;}
+    .current:nth-child(5){background:#459BDC url(../images/with-on.png) no-repeat 10px 10px;}
+    .current:nth-child(6){background:#459BDC url(../images/sys-on.png) no-repeat 10px 10px;}
+    .float-info{width:300px;height:0px;background:#fff;box-shadow:0 0 3px #bbb;position:absolute;right:0px;bottom:50px;-webkit-transition:all 0.5s;overflow:hidden;z-index:9990;}
+    .float-line{width:100%;float:left;padding:8px 0;position:relative;overflow:hidden;}
+    .float-line strong{color:#000;}
+    .float-line span{padding:0 20px;float:left;line-height:24px;max-height:48px;overflow:hidden;color:#666;}
+    .float-line span a{float:none!important;font-weight:bold;padding:0 5px;}
+    .float-line span a:hover{color:#459bdc;}
+    .float-line i{float:left;padding:0 20px;line-height:24px;}
+    .float-line a{float:left;}
+    .float-line:hover{background:#f1f1f1;}
+    .float-hf{position:absolute;right:-30px;bottom:13px;-webkit-transition:all 0.5s;cursor:pointer;color:#459bdc;}
+    .float-line:hover .float-hf{right:20px;}
+    .float-text{width:100%;float:left;height:0;overflow:hidden;-webkit-transition:all 0.5s;}
+    .float-text input{width:220px;padding:0 10px;float:left;height:40px;border:none;}
+    .float-text span{float:left;width:80px;height:41px;line-height:41px;background:#999;color:#fff;text-align:center;cursor:pointer;margin-top:-1px;}
+    .float-text span:hover{background:#ea4848;}
+    .float-text-b{height:40px!important;border-top:1px solid #ddd;}
+    .float-no{width:100%;float:left;line-height:50px;height:50px;text-align:center;display:none;}
